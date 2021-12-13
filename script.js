@@ -17,7 +17,7 @@ dateEl.setAttribute("min", today);
 
 let countdownTitle = "";
 let countDownDate = "";
-let countdownValue = Date;
+let countdownValue = new Date();
 
 const second = 1000;
 const minute = second * 60;
